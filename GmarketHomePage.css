@@ -1,0 +1,108 @@
+*{text-decoration: none;font-family: Verdana, Geneva, Tahoma, sans-serif;box-sizing: border-box;}
+header{
+    width: 100%;height: 150px;background-color: rgba(20,80,90,1);padding: 20px;  
+}
+header img{
+    height: 80px;width: 100px;display: block;float: left;margin:20px 10px 0px 15%;border-radius: 50%;
+    position: relative;bottom: 10px;
+}
+header span{
+    display: inline-block;font-size: 30px;position: relative;bottom: 12px;color: rgba(0,180,0,1);
+    margin:40px 0px 0px 10px;
+}
+.cart{
+    margin-left: 10px;display: inline-block;
+}
+nav{
+    background-color: rgba(78,94,90,1);padding: 20px;height: auto;width: 100%;
+}
+nav a{
+    color: rgb(240,240,240);
+}
+nav i{
+    margin-right: 9px;font-size: 15px;
+}
+.mainDiv{
+    height: auto;width: 100%;padding: 20px;background-color: rgb(230,230,235);
+}
+.mainDiv section{
+    height: auto;width: 100%;padding: 20px;border: 3px solid rgba(20,80,90,1);margin: 20px 0px;
+    border-radius: 5px;background-color: rgb(200,200,200);
+}
+.slideshowContainer{
+    height: auto;width: 100%;border-radius: 5px;border: 2px solid rgba(20,80,90,1);
+}
+.myslide{
+    height: 150px;width: 100%;border-radius: 5px;
+}
+.myslide img{
+    height: 100%;width: 100%;border-radius: 5px;
+}
+.makeOrderButton{
+    background-color: rgba(20,80,90,1);text-align: center;padding: 10px;color: white;
+    font-size: 13px;margin-top: 16px;border-radius: 5px;cursor: pointer;height: auto;display: inline-block;
+}
+.fade{
+    animation-name: fade;
+    animation-duration: 1.5s;
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+}
+@keyframes fade{
+    from{opacity: 0.4;}
+    to{opacity:1;}
+}
+@-webkit-keyframes fade{
+    from{
+        opacity: 0.4;
+    }
+    to{
+        opacity: 1;
+    }
+}
+footer{
+    height: auto;width: 100%;padding: 20px 10px;color:white;
+    background-color: rgba(20,80,90,1);
+}
+.socialMedia, .phoneContacts, .companyEmail{
+    height: auto;width: 100%;padding: 20px;
+}
+b{
+    display: block;border-bottom: 2px solid rgb(200,200,200);padding-bottom: 7px;
+}
+footer span{
+    display: inline-block;margin: 10px;
+}
+footer span i{
+    margin-right: 10px;font-size: 15px;
+}
+/*Devices with moderate width*/
+@media screen and (max-width:800px) and (min-width:500px){
+header span{
+    font-size: 20px;
+}    
+.myslide,img{
+    height: 300px;
+}
+}
+/*Devices with large width*/
+@media screen and (max-width:2800px) and (min-width:800px){
+    header span{
+        font-size: 24px;
+    }    
+    .myslide,img{
+    height: 250px;
+}
+.mainDiv{
+    float: left;
+}
+.mainDiv section{
+    width: 40%;float:left;margin:5%;
+}
+footer{
+    float: left;padding-left: 3px;
+}
+.socialMedia, .phoneContacts, .companyEmail{
+    width: 29%;float:left;padding-left: 5px;
+}
+}
