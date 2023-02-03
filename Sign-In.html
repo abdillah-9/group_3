@@ -59,14 +59,14 @@
             var Uname = document.getElementById('userName').value;
             var Upassword = document.getElementById('userPassword').value;
             var throwing = document.getElementById('throw');
-            var matchNames = /^[a-zA-Z]*$/;
+            var matchNames = /^[a-z]*$/;
             var matchPasswords = /^[a-zA-Z0-9]*$/;
             try{
                 //Validate Username
                 if(Uname == "") throw  "username cannot be empty";
                 else{
                     if(Uname.search(matchNames) == -1){
-                        throw "Only letters are used in Username";
+                        throw "Only small letters are used in Username";
                     }
                     else{
                         UsernameValidated = true;
