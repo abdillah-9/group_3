@@ -50,7 +50,7 @@
             var Uname = document.getElementById('userName').value;
             var Upassword = document.getElementById('userPassword').value;
             var Uemail = document.getElementById('userEmail').value;
-            var matchNames = /^[a-zA-Z]*$/;
+            var matchNames = /^[a-z]*$/;
             var matchEmail = /[@gmail][@yahoo]/;
             var matchPasswords = /^[a0-z9]*$/i;
             try{
@@ -58,7 +58,7 @@
                 if(Uname == "") throw  "username cannot be empty";
                 else{
                     if(Uname.search(matchNames) == -1){
-                        throw "Only letters are used in Username";
+                        throw "Only small letters are used in Username";
                     }
                     else{
                         UsernameValidated = true;
