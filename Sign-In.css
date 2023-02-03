@@ -72,7 +72,7 @@ footer{
 footer span{
     display: inline-block;margin: 0px 10px 10px 0px;
 }
-/* Media query for devices with 320 to 480pxs WIDTH */
+/* Media query for devices with 320 to 480pxs WIDTH 
 @media screen and (max-width:480px) and (min-width:320px){
     form input{
         width:220px;
@@ -84,7 +84,7 @@ footer span{
         max-width:470px; width:300px;
         height: 400px;
     }
-}
+}*/
 /* Media query for devices with 481 to 720pxs WIDTH */
 @media screen and (max-width:720px) and (min-width:480px){
 header div{
