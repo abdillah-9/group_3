@@ -80,6 +80,10 @@ footer span{
     .sign_in{
         width: auto;
     }
+    .div_sign_in{
+        max-width:470px; width:300px;
+        height: 400px;
+    }
 }
 /* Media query for devices with 481 to 720pxs WIDTH */
 @media screen and (max-width:720px) and (min-width:480px){
