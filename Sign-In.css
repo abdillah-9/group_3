@@ -23,13 +23,14 @@ nav a i{
 }
 .div_sign_in{
     width: 100%;height: auto;padding: 25px 20px;background-color: rgba(240,240,240,1);
+    display:flex;
 }
 .divP1{
     border: 1px solid rgb(150,150,150);margin-right: auto;margin-left: auto;padding: 10px;
-    margin-bottom: 20px;font-size: 11px;border-radius: 5px;
+    margin-bottom: 20px;font-size: 17px;border-radius: 5px;
 }
 .divP1 p{
-    border-bottom: 1px solid rgb(150,150,150);font-size: 12px;padding-bottom: 9px;
+    border-bottom: 1px solid rgb(150,150,150);font-size: 19px;padding-bottom: 9px;
     text-align: center;
 }
 .divP1 span{
@@ -43,7 +44,7 @@ form input, form textarea{
 }
 .sign_in{
     background-color: rgba(20,80,90,1);color: white;text-align: center;padding: 10px;
-    font-size: 13px;margin-top: 16px;border-radius: 5px;cursor: pointer;height: auto;
+    font-size: 21px;margin-top: 16px;border-radius: 5px;cursor: pointer;height: auto;
 }
 form input:hover,form input:focus, .sign_in:hover, form textarea:hover{
    border-color: rgba(20,80,90,1);box-shadow: 2px 2px 30px rgba(20,80,90,1);
