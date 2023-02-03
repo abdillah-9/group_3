@@ -23,11 +23,10 @@ nav a i{
 }
 .div_sign_in{
     width: 100%;height: auto;padding: 25px 20px;background-color: rgba(240,240,240,1);
-    display:flex;
 }
 .divP1{
     border: 1px solid rgb(150,150,150);margin-right: auto;margin-left: auto;padding: 10px;
-    margin-bottom: 20px;font-size: 17px;border-radius: 5px;
+    margin-bottom: 20px;font-size: 17px;border-radius: 5px; width:90%;
 }
 .divP1 p{
     border-bottom: 1px solid rgb(150,150,150);font-size: 19px;padding-bottom: 9px;
@@ -57,10 +56,10 @@ form input:hover,form input:focus, .sign_in:hover, form textarea:hover{
     font-size: 13px;margin-top: 16px;border-radius: 5px;cursor: pointer;display: inline-block;    
 }
 .divP2{
-    font-size: 11px;
+    font-size: 18px; width:90%;
 }
 .divP2 p{
-    padding: 10px;font-size: 13px;color: rgba(0,80,0,1);border: 1px solid rgba(0,80,0,1);
+    padding: 10px;font-size: 18px;color: rgba(0,80,0,1);border: 1px solid rgba(0,80,0,1);
     border-radius: 5px;box-shadow: 2px 2px 20px rgba(0,80,0,1);
 }
 .divP2 span{
@@ -68,7 +67,7 @@ form input:hover,form input:focus, .sign_in:hover, form textarea:hover{
 }
 footer{
     width: 100%;height: auto;padding: 7px;background-color: rgba(20,80,90,1);color: white;
-    font-size: 12px;
+    font-size: 16px;
 }
 footer span{
     display: inline-block;margin: 0px 10px 10px 0px;
