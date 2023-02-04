@@ -48,7 +48,7 @@ form input, form textarea{
 }
 .sign_in{
     background-color: rgba(20,80,90,1);color: white;text-align: center;padding: 20px;
-    font-size:51px;margin-top: 16px;border-radius: 5px;cursor: pointer;height: 80px; width:250px;
+    font-size: 30px;margin-top: 16px;border-radius: 5px;cursor: pointer;height: 60px; width:250px;
 }
 form input:hover,form input:focus, .sign_in:hover, form textarea:hover{
    border-color: rgba(20,80,90,1);box-shadow: 2px 2px 30px rgba(20,80,90,1);
