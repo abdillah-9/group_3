@@ -23,10 +23,11 @@ nav a i{
 }
 .div_sign_in{
     padding: 25px 20px;background-color: rgba(240,240,240,1);
+    border: 1px solid red; width:100%;
 }
 .divP1{
     border: 1px solid rgb(150,150,150);margin-right: auto;margin-left: auto;padding: 10px;
-    margin-bottom: 20px;border-radius: 5px; width:1000px; height 1000px;
+    margin-bottom: 20px;border-radius: 5px; width:100%; height 3000px;
 }
 .divP1 p{
     border-bottom: 1px solid rgb(150,150,150);font-size: 39px;padding-bottom: 9px;
@@ -38,13 +39,16 @@ nav a i{
 form span{
     color:red;
 }
+section {
+    font-size:30px;
+}
 form input, form textarea{
     border: 1px solid rgb(140,140,140);height: 80px;padding: 5px;border-radius: 5px;
     font-size: 30px; width:250px;
 }
 .sign_in{
     background-color: rgba(20,80,90,1);color: white;text-align: center;padding: 10px;
-    font-size: 51px;margin-top: 16px;border-radius: 5px;cursor: pointer;height: auto;
+    font-size:51px;margin-top: 16px;border-radius: 5px;cursor: pointer;height: 200px; width:250px;
 }
 form input:hover,form input:focus, .sign_in:hover, form textarea:hover{
    border-color: rgba(20,80,90,1);box-shadow: 2px 2px 30px rgba(20,80,90,1);
@@ -54,18 +58,18 @@ form input:hover,form input:focus, .sign_in:hover, form textarea:hover{
 }
 #hiddenContent a{
     background-color: rgba(20,80,90,1);color: white;text-align: center;padding: 10px;
-    font-size: 73px;margin-top: 16px;border-radius: 5px;cursor: pointer;display: inline-block;    
+    font-size: 20px;margin-top: 16px;border-radius: 5px;cursor: pointer;display: inline-block;    
 }
 .divP2{
-    font-size: 58px; width:600px; height: 600px; border: 1px solid blue; display:block;
+    width:100%; height: 600px; border: 1px solid blue; display:block;
     padding:20px;
 }
 .divP2 p{
-    padding: 10px;font-size: 48px;color: rgba(0,80,0,1);border: 1px solid rgba(0,80,0,1);
+    padding: 10px;font-size: 38px;color: rgba(0,80,0,1);border: 1px solid rgba(0,80,0,1);
     border-radius: 5px;box-shadow: 2px 2px 20px rgba(0,80,0,1);
 }
 .divP2 span{
-    display: block; padding: 7px 5px; font-size:40px;
+    display: block; padding: 7px 5px; font-size:28px;
 }
 footer{
     width: 100%;height: 150px;padding: 7px;background-color: rgba(20,80,90,1);color: white;
