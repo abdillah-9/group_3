@@ -7,26 +7,26 @@ header img{
 }
 header div{
     width: 65%;height: 60px;float: left;margin-top: 20px;
-    padding-top: 10px;font-size: 14px;color: white;
+    padding-top: 10px;font-size: 44px;color: white;
 }
 header span{
-    display: inline-block;color: rgba(0,180,0,1);font-size: 12px;margin: 15px 0px 15px 15px;
+    display: inline-block;color: rgba(0,180,0,1);font-size: 42px;margin: 15px 0px 15px 15px;
 }
 nav{
     background-color: rgba(78,94,90,1);padding: 10px;width: 100%;
 }
 nav a{
-    font-size: 12px;color: white;margin-right: 15px;display: inline-block;
+    font-size: 35px;color: white;margin-right: 15px;display: inline-block;
 }
 nav a i{
-    font-size: 10px;margin: 0px 6px;
+    font-size: 30px;margin: 0px 6px;
 }
 .div_sign_in{
-    width: 100%;height: auto;padding: 25px 20px;background-color: rgba(240,240,240,1);
+    padding: 25px 20px;background-color: rgba(240,240,240,1);
 }
 .divP1{
     border: 1px solid rgb(150,150,150);margin-right: auto;margin-left: auto;padding: 10px;
-    margin-bottom: 20px;font-size: 17px;border-radius: 5px; width:90%; height 300px;
+    margin-bottom: 20px;font-size: 47px;border-radius: 5px; width:90%; height 600px;
 }
 .divP1 p{
     border-bottom: 1px solid rgb(150,150,150);font-size: 19px;padding-bottom: 9px;
@@ -44,7 +44,7 @@ form input, form textarea{
 }
 .sign_in{
     background-color: rgba(20,80,90,1);color: white;text-align: center;padding: 10px;
-    font-size: 21px;margin-top: 16px;border-radius: 5px;cursor: pointer;height: auto;
+    font-size: 91px;margin-top: 16px;border-radius: 5px;cursor: pointer;height: auto;
 }
 form input:hover,form input:focus, .sign_in:hover, form textarea:hover{
    border-color: rgba(20,80,90,1);box-shadow: 2px 2px 30px rgba(20,80,90,1);
@@ -57,7 +57,7 @@ form input:hover,form input:focus, .sign_in:hover, form textarea:hover{
     font-size: 13px;margin-top: 16px;border-radius: 5px;cursor: pointer;display: inline-block;    
 }
 .divP2{
-    font-size: 18px; width:250px; height: 300px; border: 1px solid blue; display:block;
+    font-size: 58px; width:450px; height: 600px; border: 1px solid blue; display:block;
     padding:20px;
 }
 .divP2 p{
