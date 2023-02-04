@@ -39,7 +39,8 @@ form span{
     color:red;
 }
 form input, form textarea{
-    border: 1px solid rgb(140,140,140);height: 30px;padding: 5px;border-radius: 5px;
+    border: 1px solid rgb(140,140,140);height: 80px;padding: 5px;border-radius: 5px;
+    font-size: 30px;
 }
 .sign_in{
     background-color: rgba(20,80,90,1);color: white;text-align: center;padding: 10px;
@@ -56,7 +57,8 @@ form input:hover,form input:focus, .sign_in:hover, form textarea:hover{
     font-size: 13px;margin-top: 16px;border-radius: 5px;cursor: pointer;display: inline-block;    
 }
 .divP2{
-    font-size: 18px; width:90%; height: 300px; border: 1px solid blue;
+    font-size: 18px; width:250px; height: 300px; border: 1px solid blue; display:block;
+    padding:20px;
 }
 .divP2 p{
     padding: 10px;font-size: 18px;color: rgba(0,80,0,1);border: 1px solid rgba(0,80,0,1);
